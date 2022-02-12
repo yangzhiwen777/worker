@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>master</h1>
+    <p>已经发现的所有质数：
+    <div id="result"></div>
+    </p>
+    <script src="./index.js">
+        // for (var i = 2; i <= 9999; i++) {
+        //     var f = 1;
+        //     for (var j = 2; j <= Math.sqrt(i); j++) { //Math.sqrt(m)函数用来求数m的平方根
+        //         if (i % j == 0) {
+        //             f = 0;
+        //             break;
+        //         }
+        //     }
+        //     if (f == 1)
+        //     document.getElementById('result').innerHTML += (i + ", ");
+        // }
+        // var n = 1;
+        // // search:
+        // while (n < 999)
+        // {
+        //     // 开始搜寻下一个质数
+        //     n += 1;
+        //     for (var i = 2; i <= Math.sqrt(n); i++)
+        //     {
+        //         // 如果除以n的余数为0，开始判断下一个数字。
+        //         if (n % i === 0)
+        //         {
+        //             continue;
+        //             console.log('continue后面的代码');
+        //         }
+        //         // console.log('执行吗');
+        //     document.getElementById('result').innerHTML += (n + ", ");
+        //     }
+        // }
+    </script>
 </body>
+
 </html>
