@@ -118,7 +118,7 @@ class MandelbrotCanvas {
     this.resizeTimer = null;
     this.colorTable = null;
     this.canvas.addEventListener("pointerdown", (e) =>
-      this.hardwareConcurrency(e)
+      this.handlePointer(e)
     );
     window.addEventListener("keydown", (e) => this.handleKey(e));
     window.addEventListener("resize", (e) => this.handleResize(e));
